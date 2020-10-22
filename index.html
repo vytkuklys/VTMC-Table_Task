@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table, th, td {
+      border: solid 1px #000;
+      border-collapse: collapse;
+    }
+    table {
+      width: 600px;
+      margin: 0 auto;
+      
+    }
+    td, th {
+      height: 30px;
+    }
+    .gray {
+      background-color: rgba(236, 236, 236, 0.911);
+    }
+    th {
+      text-align: left;
+    }
+    span {
+      font-weight: bold;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <table>
+    <tr class="gray">
+      <td>Color</td>
+      <td>Color Name</td>
+      <td>Color Code</td>
+    </tr>
+    <tr>
+      <td style="background-color: #FF6347;"></td>
+      <td>Tomato</td>
+      <td>#FF6347</td>
+    </tr>
+    <tr>
+      <td style="background-color: #FFA500;"></td>
+      <td>Orange</td>
+      <td>#FFA500</td>
+    </tr>
+    <tr>
+      <td style="background-color: #1E90FF;"></td>
+      <td>DodgerBlue</td>
+      <td>#1E90FF</td>
+    </tr>
+    <tr>
+      <td style="background-color: #3CB371;"></td>
+      <td>MediumSeaGreen</td>
+      <td>#3CB371</td>
+    </tr>
+    <tr>
+      <td style="background-color: #808080;"></td>
+      <td>Gray</td>
+      <td>#808080</td>
+    </tr>
+    <tr>
+      <td style="background-color: #6A5ACD;"></td>
+      <td>SlateBlue</td>
+      <td>#6A5ACD</td>
+    </tr>
+    <tr>
+      <td style="background-color: #EE82EE;"></td>
+      <td>Violet</td>
+      <td>#EE82EE</td>
+    </tr>
+    <tr>
+      <td style="background-color: #D3D3D3;"></td>
+      <td>LightGray</td>
+      <td>#D3D3D3</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr class="gray">
+      <th colspan="3">Invoice #123456789</th>
+      <th>14 January 2025</th>
+    </tr>
+    <tr>
+      <td colspan="2" style="border-right-color: gray;"> <span>Pay to:</span> <br>
+        Acme Billing Co. <br>
+        123 Main St. <br>
+        Cityville, NA 12345</td>
+      <td colspan="2" style="border-left-color: gray;"><span>Customer:</span>  <br>
+        John Smith. <br>
+        321 Willow Way <br>
+        Southeast Northwestershire, MA 54321</td>
+    </tr>
+    <tr class="gray">
+      <th>Name/Description</th>
+      <th>Qty.</th>
+      <th>@</th>
+      <th>Cost</th>
+    </tr>
+    <tr>
+      <td>Paperclips</td>
+      <td>1000</td>
+      <td>0.01</td>
+      <td>10.00</td>
+    </tr>
+    <tr>
+      <td>Staples (box)</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>100.00</td>
+    </tr>
+    <tr>
+      <th colspan="3" class="gray">Subtotal</th>
+      <td>110.00</td>
+    </tr>
+    <tr>
+      <th colspan="2" class="gray" style="border-bottom-color: gray;">Tax</th>
+      <td style="border-bottom-color: gray;">8%</td>
+      <td>8.80</td>
+    </tr>
+    <tr>
+      <th colspan="3" class="gray" style="border-top-color: gray;">Grand Total</th>
+      <td>118.80</td>
+    </tr>
+  </table>
+</body>
+</html>
+
